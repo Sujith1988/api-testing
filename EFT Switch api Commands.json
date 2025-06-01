@@ -1,0 +1,2705 @@
+{
+	"info": {
+		"_postman_id": "92944390-c92e-4c6e-b986-5c982df863fe",
+		"name": "Pravega-Command Console",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18195206"
+	},
+	"item": [
+		{
+			"name": "CONNECT",
+			"item": [
+				{
+					"name": "Naiguata-Connect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"CONNECT \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-Connect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"CONNECT \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-Connect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"CONNECT \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-Connect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"CONNECT \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-Connect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"CONNECT \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SIGNON",
+			"item": [
+				{
+					"name": "Naiguata-SignOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNON \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-SignOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNON \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-SignOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNON \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-SignOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNON \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-SignOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNON \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ECHOREQ",
+			"item": [
+				{
+					"name": "Naiguata-Echoreq",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"ECHOREQ \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-Echoreq",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"ECHOREQ \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-Echoreq",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"ECHOREQ \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-Echoreq",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"ECHOREQ \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-Echoreq",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"ECHOREQ \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "KEYCHANGE",
+			"item": [
+				{
+					"name": "Naiguata-Keychange",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"KEYCHANGE \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-Keychange",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"KEYCHANGE \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-Keychange",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"KEYCHANGE \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-Keychange",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"KEYCHANGE \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-Keychange",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"KEYCHANGE \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SIGNOFF",
+			"item": [
+				{
+					"name": "Naiguata-SignOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNOFF \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-SignOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNOFF \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-SignOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNOFF \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-SignOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNOFF \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-SignOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"SIGNOFF \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DISCONNECT",
+			"item": [
+				{
+					"name": "Naiguata-Disconnect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"DISCONNECT \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-Disconnect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"DISCONNECT \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-Disconnect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"DISCONNECT \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-Disconnect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"DISCONNECT \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-Disconnect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"DISCONNECT \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TRACEON",
+			"item": [
+				{
+					"name": "All-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"ALL \",\r\n    \"interchange\": \"ALL \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Naiguata-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pravega-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"PRAVEGA\",\r\n    \"interchange\": \"PRAVEGA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ISO Adapter-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"ISO Adapter\",\r\n    \"interchange\": \"ISONG\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HSM-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"HSM\",\r\n    \"interchange\": \"HSM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PosApp-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"PosApp\",\r\n    \"interchange\": \"PosApp\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ATMNode-TraceOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEON \",\r\n    \"interface\": \"ATMNode\",\r\n    \"interchange\": \"ATMNode\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TRACEOFF",
+			"item": [
+				{
+					"name": "All-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"ALL \",\r\n    \"interchange\": \"ALL \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Naiguata-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pravega-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"PRAVEGA\",\r\n    \"interchange\": \"PRAVEGA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ISO Adapter-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"ISO Adapter\",\r\n    \"interchange\": \"ISONG\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HSM-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"HSM\",\r\n    \"interchange\": \"HSM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PosApp-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"PosApp\",\r\n    \"interchange\": \"PosApp\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ATMNode-TraceOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACEOFF \",\r\n    \"interface\": \"ATMNode\",\r\n    \"interchange\": \"ATMNode\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TRACECLEAN",
+			"item": [
+				{
+					"name": "Naiguata-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pravega-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"PRAVEGA\",\r\n    \"interchange\": \"PRAVEGA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ISO Adapter-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"ISO Adapter\",\r\n    \"interchange\": \"ISONG\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HSM-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"HSM\",\r\n    \"interchange\": \"HSM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PosApp-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"PosApp\",\r\n    \"interchange\": \"PosApp\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ATMNode-TraceClean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"TRACECLEAN \",\r\n    \"interface\": \"ATMNode\",\r\n    \"interchange\": \"ATMNode\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LOGGERON",
+			"item": [
+				{
+					"name": "All-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"ALL \",\r\n    \"interchange\": \"ALL \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Naiguata-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pravega-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"PRAVEGA\",\r\n    \"interchange\": \"PRAVEGA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ISO Adapter-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"ISO Adapter\",\r\n    \"interchange\": \"ISONG\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HSM-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"HSM\",\r\n    \"interchange\": \"HSM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PosApp-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"PosApp\",\r\n    \"interchange\": \"PosApp\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ATMNode-LoggerOn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGERON \",\r\n    \"interface\": \"ATMNode\",\r\n    \"interchange\": \"ATMNode\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LOGGEROFF",
+			"item": [
+				{
+					"name": "All-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"ALL \",\r\n    \"interchange\": \"ALL \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Naiguata-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"Naiguata\",\r\n    \"interchange\": \"NGInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MDS-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"MDS\",\r\n    \"interchange\": \"MDSInterchange1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Base24-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"Base24\",\r\n    \"interchange\": \"B24Evertec1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CMS Adapter-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"CMS Adapter\",\r\n    \"interchange\": \"CMSInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"Dashboard\",\r\n    \"interchange\": \"DashInterchange\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pravega-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"PRAVEGA\",\r\n    \"interchange\": \"PRAVEGA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ISO Adapter-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"ISO Adapter\",\r\n    \"interchange\": \"ISONG\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HSM-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"HSM\",\r\n    \"interchange\": \"HSM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PosApp-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"PosApp\",\r\n    \"interchange\": \"PosApp\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ATMNode-LoggerOff",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"LOGGEROFF \",\r\n    \"interface\": \"ATMNode\",\r\n    \"interchange\": \"ATMNode\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RESYNC",
+			"item": [
+				{
+					"name": "Naiguata-Connect Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"RESYNC \",\r\n    \"interface\": \"Pravega\",\r\n    \"interchange\": \"Pravega\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://192.168.1.10:7878/1",
+							"protocol": "https",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"10"
+							],
+							"port": "7878",
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
